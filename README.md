@@ -12,17 +12,21 @@ When deploying static websites using HTML, CSS and Javascript. When using React 
 ### First time usage
 
 ✅Go to (Netify)[https://www.netlify.com/] and sign up. 
+
 ✅Choose to sign up using your Github account and give Netlify access to your Github. 
 
 ### Deploy a project
 
 ✅When logged in to Netlify, click the button ```New site from Git```
+
 ✅In the first step you choose ```Github``` under the Continious Deployment headline. 
+
 ✅Choose the repository that you would like to deploy. 
 
 ```If you can't find the repository that you are looking for you might have to click the button "Configure Netlify on Github"```
 
 ✅Under Deploy settings you can choose which bransch you would like to deploy. If you haven't made any specific production bransch or similar, just go with ```master```. 
+
 ✅Click `Deploy site`. 
 
 Wait a couple of minutes and your site will be deployed. Once fully deployed ***your sites url will show up on the overview page.*** This can for example be: https://infallible-hopper-12a82b.netlify.com. 
