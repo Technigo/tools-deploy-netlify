@@ -16,7 +16,16 @@ When deploying static websites using HTML, CSS and Javascript. When using React 
 
 ✅Choose to sign up using your Github account and give Netlify access to your Github. 
 
-### Deploy a project
+## Deploy a project
+
+### Prepare your project
+Before you set up GitHub to deploy your site, make sure that your project is ready:
+
+✅There should be an index.html file - this is what will load when you visit your website!
+
+✅Make sure your stylesheets, images, and scripts use relative paths, like this for a stylesheet, for example: `<link rel="stylesheet" href="./style.css">`
+
+### Deploy
 
 ✅When logged in to Netlify, click the button ```New site from Git```
 
